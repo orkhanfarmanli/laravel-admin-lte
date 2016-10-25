@@ -7,9 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'ADNSU') }} - @yield('backtitle')</title>
+    <title>{{ config('app.name', 'Laravel') }} - @yield('backtitle')</title>
 
-    <title> AdminLTE 2 with Laravel - @yield('htmlheader_title', 'Your title here') </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="{{ asset('/admin/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
@@ -30,7 +29,7 @@
     <![endif]-->
 
     <script>
-        window.ADNSU = <?php echo json_encode([
+        window.Laravel = <?php echo json_encode([
      'csrfToken' => csrf_token(),
 ]); ?>
 

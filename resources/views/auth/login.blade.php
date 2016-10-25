@@ -7,7 +7,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ url('/home') }}"><b>ADNSU</b></a>
+            <a href="{{ url('/home') }}"><b>Admin Panel</b></a>
         </div><!-- /.login-logo -->
 
     @if (count($errors) > 0)
